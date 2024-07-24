@@ -1,0 +1,28 @@
+h1{
+    color: orange;
+    border: 2px solid red;
+
+}
+h2{
+    color : rgb(255,0,255);
+    border : 5px solid  rgb(0,255,255);
+    
+}
+h3{
+    color : rgba(0, 255, 0,1 );
+    border : 5px solid rgba(255, 0, 0,0.2 ) 
+}
+/* RGBA is similar to RGB but includes an alpha channel for opacity.*/
+/* rgba(255, 99, 71, 0.5) represents the same color as the RGB example but with 50% opacity. The alpha value (0.5) makes the color semi-transparent. */
+h4{
+    color : #ff0000;
+    border : 10px solid #ff7 ;
+}
+h5{
+    color : hsl(0, 100%, 51%);
+    border : 2px solid hsl(240, 100%, 51%);
+}
+h6{
+    color : hsla(360, 100%, 51%, 1);
+    border: 10px  solid hsla(240, 100%, 51%, 1) ;
+}
