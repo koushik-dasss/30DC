@@ -52,9 +52,9 @@ public class Lec3 {
         */
 
         System.out.println(3>2 && 5>4); // true
-        System.out.println(2>3 && 1>2); // false
+        System.out.println(2>3 /* &&    1>2 */); // false
         System.out.println(3>2 && 1>2); // false
-        System.out.println(1<0 && 5>4); // false
+        System.out.println(1<0 /* && 5>4 */); // false
 
         // Logical OR (||)
         /* If the first condition is true , then the result is true always. (Short circuit evaluation)
@@ -68,9 +68,9 @@ public class Lec3 {
         F F F
         */
 
-        System.out.println(3>2 || 5>4); // true
+        System.out.println(3>2 /*|| 5>*/); // true
         System.out.println(2>3 || 1>2); // false
-        System.out.println(3>2 || 1>2); // true
+        System.out.println(3>2 /* || 1>2*/); // true
         System.out.println(1<0 || 5>4); // true
 
         // Logical NOT(!) :-
